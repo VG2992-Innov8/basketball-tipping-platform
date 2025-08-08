@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🛠️ Admin Dashboard</h1>
+
+    <div id="login-section">
+      <input type="password" id="admin-password" placeholder="Enter password" />
+      <button onclick="login()">Login</button>
+      <p id="login-error" style="color:red; display:none;">Incorrect password</p>
+    </div>
+
+    <div id="dashboard" style="display:none;">
+      <button onclick="logout()">Logout</button>
+      <h2>Submitted Rounds</h2>
+      <ul id="round-list"></ul>
+
+      <h2>Leaderboard</h2>
+      <ul id="leaderboard"></ul>
+    </div>
+  </div>
+
+  <script src="admin.js"></script>
+</body>
+</html>

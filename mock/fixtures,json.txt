@@ -1,0 +1,5 @@
+[
+  { "home": "Melbourne United", "away": "Sydney Kings" },
+  { "home": "Perth Wildcats", "away": "Brisbane Bullets" },
+  { "home": "Adelaide 36ers", "away": "Illawarra Hawks" }
+]
